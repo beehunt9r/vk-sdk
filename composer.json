@@ -1,0 +1,23 @@
+{
+    "name": "maxgoody/hydrogen",
+    "description": "Hydrogen - unofficial VK API PHP SDK.",
+    "type": "library",
+    "license": "ISC",
+    "authors": [
+        {
+            "name": "Maxim Alexeev",
+            "email": "maksimgoody@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hydrogen\\": "src"
+        }
+    }
+}
