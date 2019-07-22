@@ -9,12 +9,12 @@ composer require maxgoody/hydrogen
 <?php
 require __DIR__.'/vendor/autoload.php';
 
-use Hydrogen\Client;
-use Hydrogen\Language;
+use MaxGoody\Hydrogen\Client;
+use MaxGoody\Hydrogen\Enums\Language;
 
 $client = new Client(
     '45a14b2953ff9e35c58d0f8eb94076455534baf6edf78dc7018bd5d93d06029be83efd260cb3013b3a67e', // token, required
-    '5.80', // verison, optional, default 5.92
+    '5.80', // verison, optional, default 5.101
     Language::ENGLISH // language, optional, default Language::RUSSIAN
 );
 
@@ -31,7 +31,21 @@ print_r($response[0]);
     )
 */
 
-// Upload photo on wall.
+// Call users.get method with some parameters.
+$response = $client->users->get(['user_id' => 1]);
+
+print_r($response[0]);
+/*
+    Array
+    (
+        [id] => 1
+        [first_name] => Pavel
+        [last_name] => Durov
+    )
+*/
+
+
+// Upload photo.
 $response = $client->photos->getWallUploadServer();
 $response = $client->upload($response['upload_url'], 'photo', __DIR__.'/photo.jpg');
 $response = $client->photos->saveWallPhoto($response);
@@ -85,3 +99,11 @@ print_r($response[0]);
     )
 */
 ```
+
+# Exceptions
+1. RequestException will be throwed when:
+    * cURL error occurred.
+2. ResponseException will be throwed when:
+    * HTTP status code is not equals with 200;
+    * API responded with invalid JSON;
+    * API responded with error.

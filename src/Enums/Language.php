@@ -1,11 +1,11 @@
 <?php
-namespace Hydrogen;
+
+namespace MaxGoody\Hydrogen\Enums;
 
 /**
- * Language
- * @package Hydrogen
- * @author Maxim Alexeev
- * @license ISC
+ * @package MaxGoody\Hydrogen
+ * @author Maksim Alekseev <maksimgoody@gmail.com>
+ * @license MIT
  */
 class Language
 {

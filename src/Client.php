@@ -1,16 +1,18 @@
 <?php
-namespace Hydrogen;
+
+namespace MaxGoody\Hydrogen;
 
 use CURLFile;
+use InvalidArgumentException;
 use OutOfRangeException;
-use Hydrogen\Exceptions\RequestException;
-use Hydrogen\Exceptions\ResponseException;
+use MaxGoody\Hydrogen\Enums\Language;
+use MaxGoody\Hydrogen\Exceptions\RequestException;
+use MaxGoody\Hydrogen\Exceptions\ResponseException;
 
 /**
- * Client
- * @package Hydrogen
- * @author Maxim Alexeev
- * @license ISC
+ * @package MaxGoody\Hydrogen
+ * @author Maksim Alekseev <maksimgoody@gmail.com>
+ * @license MIT
  */
 class Client
 {
@@ -39,19 +41,21 @@ class Client
      */
     private $method_parts = [];
 
-    public function __construct(string $access_token, string $version = '5.92', int $language = Language::RUSSIAN)
+    public function __construct(string $access_token, string $version = '5.101', int $language = Language::RUSSIAN)
     {
         $this->access_token = $access_token;
         $this->language = $language;
         $this->version = $version;
         $this->resource = curl_init();
     }
-    
+
     /**
      * @param string $name
+     *
+     * @return Client
      * @throws OutOfRangeException
      */
-    public function __get(string $name)
+    public function __get(string $name): self
     {
         if (count($this->method_parts) > 0) {
             throw new OutOfRangeException('The method is characterized by only one controller!');
@@ -64,8 +68,8 @@ class Client
     /**
      * @param string $name
      * @param array $arguments
-     * @throws RequestException
-     * @throws ResponseException
+     *
+     * @return mixed
      */
     public function __call(string $name, array $arguments)
     {
@@ -78,7 +82,7 @@ class Client
     /**
      * @param string $method
      * @param array $options
-     * 
+     *
      * @return mixed
      * @throws RequestException
      * @throws ResponseException
@@ -98,33 +102,27 @@ class Client
             CURLOPT_SSL_VERIFYHOST => false,
             CURLOPT_CONNECTTIMEOUT => 5,
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_POSTFIELDS => $options
+            CURLOPT_POSTFIELDS => $options,
         ]);
 
-        $response = curl_exec($this->resource);
-        if ($response === false) {
-            throw new RequestException(curl_error($this->resource), curl_errno($this->resource));
-        }
-
-        $data = json_decode($response, true);
-        if (isset($data['error'])) {
-            $error = $data['error'];
-            throw new ResponseException($error['error_msg'], $error['error_code']);
-        }
-        
-        return $data['response'] ?? $data;
+        return $this->sendAndDecode();
     }
 
     /**
      * @param string $url
      * @param string $parameter
      * @param string $path
-     * 
+     *
      * @return mixed
      * @throws RequestException
+     * @throws ResponseException
      */
     public function upload(string $url, string $parameter, string $path)
     {
+        if (false === is_file($path)) {
+            throw new InvalidArgumentException('File is not exists ['.$path.'].');
+        }
+
         curl_reset($this->resource);
         curl_setopt_array($this->resource, [
             CURLOPT_URL => $url,
@@ -134,16 +132,11 @@ class Client
             CURLOPT_SSL_VERIFYHOST => false,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_POSTFIELDS => [
-                $parameter => new CURLFile($path)
-            ]
+                $parameter => new CURLFile($path, mime_content_type($path), pathinfo($path, PATHINFO_BASENAME)),
+            ],
         ]);
 
-        $response = curl_exec($this->resource);
-        if ($response === false) {
-            throw new RequestException(curl_error($this->resource), curl_errno($this->resource));
-        }
-
-        return json_decode($response, true);
+        return $this->sendAndDecode();
     }
 
     /**
@@ -169,7 +162,7 @@ class Client
     {
         return $this->language;
     }
-    
+
     /**
      * @param int $language
      */
@@ -185,7 +178,7 @@ class Client
     {
         return $this->version;
     }
-    
+
     /**
      * @param string $version
      */
@@ -197,5 +190,41 @@ class Client
     public function __destruct()
     {
         curl_close($this->resource);
+    }
+
+    /**
+     * @return mixed
+     * @throws RequestException
+     * @throws ResponseException
+     */
+    private function sendAndDecode()
+    {
+        $response = curl_exec($this->resource);
+        if (false === $response) {
+            throw new RequestException(
+                'cURL error ['.curl_error($this->resource).'].',
+                curl_errno($this->resource)
+            );
+        }
+
+        $code = curl_getinfo($this->resource, CURLINFO_RESPONSE_CODE);
+        if (200 !== $code) {
+            throw new ResponseException('Invalid http code ['.$code.'].');
+        }
+
+        $data = json_decode($response, true);
+        if (JSON_ERROR_NONE !== json_last_error()) {
+            throw new ResponseException(
+                'Invalid JSON ['.json_last_error_msg().'].',
+                json_last_error()
+            );
+        }
+
+        if (true === isset($data['error'])) {
+            $error = $data['error'];
+            throw new ResponseException('API error ['.$error['error_msg'].'].', $error['error_code']);
+        }
+
+        return $data['response'] ?? $data;
     }
 }

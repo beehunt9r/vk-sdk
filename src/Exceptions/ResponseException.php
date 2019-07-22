@@ -1,12 +1,14 @@
 <?php
-namespace Hydrogen\Exceptions;
+
+namespace MaxGoody\Hydrogen\Exceptions;
 
 use Exception;
 
 /**
- * ResponseException
- * @package Hydrogen\Exceptions
- * @author Maxim Alexeev
- * @license ISC
+ * @package MaxGoody\Hydrogen\Exceptions
+ * @author Maksim Alekseev <maksimgoody@gmail.com>
+ * @license MIT
  */
-class ResponseException extends Exception {}
+class ResponseException extends Exception
+{
+}
