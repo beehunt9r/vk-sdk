@@ -4,10 +4,10 @@ namespace MaxGoody\Hydrogen;
 
 use CURLFile;
 use InvalidArgumentException;
-use OutOfRangeException;
 use MaxGoody\Hydrogen\Enums\Language;
 use MaxGoody\Hydrogen\Exceptions\RequestException;
 use MaxGoody\Hydrogen\Exceptions\ResponseException;
+use OutOfRangeException;
 
 /**
  * @package MaxGoody\Hydrogen
@@ -62,6 +62,7 @@ class Client
         }
 
         $this->method_parts[] = $name;
+
         return $this;
     }
 
@@ -76,6 +77,7 @@ class Client
         $this->method_parts[] = $name;
         array_unshift($arguments, implode('.', $this->method_parts));
         $this->method_parts = [];
+
         return call_user_func_array([$this, 'call'], $arguments);
     }
 
@@ -201,10 +203,7 @@ class Client
     {
         $response = curl_exec($this->resource);
         if (false === $response) {
-            throw new RequestException(
-                'cURL error ['.curl_error($this->resource).'].',
-                curl_errno($this->resource)
-            );
+            throw new RequestException('cURL error ['.curl_error($this->resource).'].', curl_errno($this->resource));
         }
 
         $code = curl_getinfo($this->resource, CURLINFO_RESPONSE_CODE);
@@ -214,10 +213,7 @@ class Client
 
         $data = json_decode($response, true);
         if (JSON_ERROR_NONE !== json_last_error()) {
-            throw new ResponseException(
-                'Invalid JSON ['.json_last_error_msg().'].',
-                json_last_error()
-            );
+            throw new ResponseException('Invalid JSON ['.json_last_error_msg().'].', json_last_error());
         }
 
         if (true === isset($data['error'])) {
