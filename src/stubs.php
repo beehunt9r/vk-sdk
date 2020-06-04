@@ -1,193 +1,192 @@
 <?php
 
 namespace MaxGoody\Hydrogen {
-
     class Client
     {
         /**
          * @var \MaxGoody\Hydrogen\Groups\Account
          */
-        public $account;
+         public $account;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Ads
          */
-        public $ads;
+         public $ads;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\AppWidgets
          */
-        public $appWidgets;
+         public $appWidgets;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Apps
          */
-        public $apps;
+         public $apps;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Auth
          */
-        public $auth;
+         public $auth;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Board
          */
-        public $board;
+         public $board;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Database
          */
-        public $database;
+         public $database;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Docs
          */
-        public $docs;
+         public $docs;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Fave
          */
-        public $fave;
+         public $fave;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Friends
          */
-        public $friends;
+         public $friends;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Gifts
          */
-        public $gifts;
+         public $gifts;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Groups
          */
-        public $groups;
+         public $groups;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Leads
          */
-        public $leads;
+         public $leads;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Likes
          */
-        public $likes;
+         public $likes;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Market
          */
-        public $market;
+         public $market;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Messages
          */
-        public $messages;
+         public $messages;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Newsfeed
          */
-        public $newsfeed;
+         public $newsfeed;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Notes
          */
-        public $notes;
+         public $notes;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Notifications
          */
-        public $notifications;
+         public $notifications;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Orders
          */
-        public $orders;
+         public $orders;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Pages
          */
-        public $pages;
+         public $pages;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Photos
          */
-        public $photos;
+         public $photos;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Polls
          */
-        public $polls;
+         public $polls;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\PrettyCards
          */
-        public $prettyCards;
+         public $prettyCards;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Search
          */
-        public $search;
+         public $search;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Secure
          */
-        public $secure;
+         public $secure;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Stats
          */
-        public $stats;
+         public $stats;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Status
          */
-        public $status;
+         public $status;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Storage
          */
-        public $storage;
+         public $storage;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Stories
          */
-        public $stories;
+         public $stories;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Streaming
          */
-        public $streaming;
+         public $streaming;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Users
          */
-        public $users;
+         public $users;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Utils
          */
-        public $utils;
+         public $utils;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Video
          */
-        public $video;
+         public $video;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Wall
          */
-        public $wall;
+         public $wall;
 
         /**
          * @var \MaxGoody\Hydrogen\Groups\Widgets
          */
-        public $widgets;
+         public $widgets;
+
     }
 }
 
 namespace MaxGoody\Hydrogen\Groups {
-
     class Account
     {
         /**
@@ -197,10 +196,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.ban
          */
-        public function ban(array $parameters = [])
-        {
-            //
-        }
+         public function ban(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Changes a user password after access is successfully restored with the [vk.com/dev/auth.restore|auth.restore] method.
@@ -214,10 +213,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.changePassword
          */
-        public function changePassword(array $parameters = [])
-        {
-            //
-        }
+         public function changePassword(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of active ads (offers) which executed by the user will bring him/her respective number of votes to his balance in the application.
@@ -229,10 +228,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getActiveOffers
          */
-        public function getActiveOffers(array $parameters = [])
-        {
-            //
-        }
+         public function getActiveOffers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Gets settings of the user in this application.
@@ -243,10 +242,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getAppPermissions
          */
-        public function getAppPermissions(array $parameters = [])
-        {
-            //
-        }
+         public function getAppPermissions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a user's blacklist.
@@ -258,10 +257,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getBanned
          */
-        public function getBanned(array $parameters = [])
-        {
-            //
-        }
+         public function getBanned(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns non-null values of user counters.
@@ -272,10 +271,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getCounters
          */
-        public function getCounters(array $parameters = [])
-        {
-            //
-        }
+         public function getCounters(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns current account info.
@@ -286,10 +285,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getInfo
          */
-        public function getInfo(array $parameters = [])
-        {
-            //
-        }
+         public function getInfo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the current account info.
@@ -298,10 +297,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getProfileInfo
          */
-        public function getProfileInfo(array $parameters = [])
-        {
-            //
-        }
+         public function getProfileInfo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Gets settings of push notifications.
@@ -312,10 +311,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.getPushSettings
          */
-        public function getPushSettings(array $parameters = [])
-        {
-            //
-        }
+         public function getPushSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Subscribes an iOS/Android/Windows Phone-based device to receive push notifications
@@ -332,10 +331,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.registerDevice
          */
-        public function registerDevice(array $parameters = [])
-        {
-            //
-        }
+         public function registerDevice(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits current profile info.
@@ -359,10 +358,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.saveProfileInfo
          */
-        public function saveProfileInfo(array $parameters = [])
-        {
-            //
-        }
+         public function saveProfileInfo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to edit the current account info.
@@ -374,10 +373,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setInfo
          */
-        public function setInfo(array $parameters = [])
-        {
-            //
-        }
+         public function setInfo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sets an application screen name (up to 17 characters), that is shown to the user in the left menu.
@@ -389,10 +388,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setNameInMenu
          */
-        public function setNameInMenu(array $parameters = [])
-        {
-            //
-        }
+         public function setNameInMenu(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks a current user as offline.
@@ -401,10 +400,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setOffline
          */
-        public function setOffline(array $parameters = [])
-        {
-            //
-        }
+         public function setOffline(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks the current user as online for 15 minutes.
@@ -415,10 +414,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setOnline
          */
-        public function setOnline(array $parameters = [])
-        {
-            //
-        }
+         public function setOnline(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Change push settings.
@@ -432,10 +431,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setPushSettings
          */
-        public function setPushSettings(array $parameters = [])
-        {
-            //
-        }
+         public function setPushSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Mutes push notifications for the set period of time.
@@ -449,10 +448,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.setSilenceMode
          */
-        public function setSilenceMode(array $parameters = [])
-        {
-            //
-        }
+         public function setSilenceMode(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -461,10 +460,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.unban
          */
-        public function unban(array $parameters = [])
-        {
-            //
-        }
+         public function unban(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Unsubscribes a device from push notifications.
@@ -476,10 +475,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/account.unregisterDevice
          */
-        public function unregisterDevice(array $parameters = [])
-        {
-            //
-        }
+         public function unregisterDevice(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Ads
@@ -494,10 +494,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.addOfficeUsers
          */
-        public function addOfficeUsers(array $parameters = [])
-        {
-            //
-        }
+         public function addOfficeUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to check the ad link.
@@ -511,10 +511,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.checkLink
          */
-        public function checkLink(array $parameters = [])
-        {
-            //
-        }
+         public function checkLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates ads.
@@ -526,10 +526,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.createAds
          */
-        public function createAds(array $parameters = [])
-        {
-            //
-        }
+         public function createAds(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates advertising campaigns.
@@ -541,10 +541,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.createCampaigns
          */
-        public function createCampaigns(array $parameters = [])
-        {
-            //
-        }
+         public function createCampaigns(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates clients of an advertising agency.
@@ -556,10 +556,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.createClients
          */
-        public function createClients(array $parameters = [])
-        {
-            //
-        }
+         public function createClients(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates a group to re-target ads for users who visited advertiser's site (viewed information about the product, registered, etc.).
@@ -575,10 +575,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.createTargetGroup
          */
-        public function createTargetGroup(array $parameters = [])
-        {
-            //
-        }
+         public function createTargetGroup(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Archives ads.
@@ -590,10 +590,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.deleteAds
          */
-        public function deleteAds(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAds(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Archives advertising campaigns.
@@ -605,10 +605,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.deleteCampaigns
          */
-        public function deleteCampaigns(array $parameters = [])
-        {
-            //
-        }
+         public function deleteCampaigns(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Archives clients of an advertising agency.
@@ -620,10 +620,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.deleteClients
          */
-        public function deleteClients(array $parameters = [])
-        {
-            //
-        }
+         public function deleteClients(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a retarget group.
@@ -636,10 +636,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.deleteTargetGroup
          */
-        public function deleteTargetGroup(array $parameters = [])
-        {
-            //
-        }
+         public function deleteTargetGroup(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of advertising accounts.
@@ -648,10 +648,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getAccounts
          */
-        public function getAccounts(array $parameters = [])
-        {
-            //
-        }
+         public function getAccounts(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns number of ads.
@@ -668,10 +668,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getAds
          */
-        public function getAds(array $parameters = [])
-        {
-            //
-        }
+         public function getAds(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns descriptions of ad layouts.
@@ -688,10 +688,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getAdsLayout
          */
-        public function getAdsLayout(array $parameters = [])
-        {
-            //
-        }
+         public function getAdsLayout(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns ad targeting parameters.
@@ -708,10 +708,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getAdsTargeting
          */
-        public function getAdsTargeting(array $parameters = [])
-        {
-            //
-        }
+         public function getAdsTargeting(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns current budget of the advertising account.
@@ -722,10 +722,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getBudget
          */
-        public function getBudget(array $parameters = [])
-        {
-            //
-        }
+         public function getBudget(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of campaigns in an advertising account.
@@ -734,15 +734,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $client_id integer 'For advertising agencies'. ID of the client advertising campaigns are retrieved from.
          * @param $include_deleted boolean Flag that specifies whether archived ads shall be shown. *0 — show only active campaigns,, *1 — show all campaigns.
          * @param $campaign_ids string Filter of advertising campaigns to show. Serialized JSON array with campaign IDs. Only campaigns that exist in 'campaign_ids' and belong to the specified advertising account will be shown. If the parameter is null, all campaigns will be shown.
+         * @param $fields array
          *
          * @return array
          *
          * @see https://vk.com/dev/ads.getCampaigns
          */
-        public function getCampaigns(array $parameters = [])
-        {
-            //
-        }
+         public function getCampaigns(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of possible ad categories.
@@ -753,10 +754,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getCategories
          */
-        public function getCategories(array $parameters = [])
-        {
-            //
-        }
+         public function getCategories(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of advertising agency's clients.
@@ -767,10 +768,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getClients
          */
-        public function getClients(array $parameters = [])
-        {
-            //
-        }
+         public function getClients(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns demographics for ads or campaigns.
@@ -786,10 +787,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getDemographics
          */
-        public function getDemographics(array $parameters = [])
-        {
-            //
-        }
+         public function getDemographics(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about current state of a counter — number of remaining runs of methods and time to the next counter nulling in seconds.
@@ -800,10 +801,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getFloodStats
          */
-        public function getFloodStats(array $parameters = [])
-        {
-            //
-        }
+         public function getFloodStats(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of managers and supervisors of advertising account.
@@ -814,10 +815,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getOfficeUsers
          */
-        public function getOfficeUsers(array $parameters = [])
-        {
-            //
-        }
+         public function getOfficeUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns detailed statistics of promoted posts reach from campaigns and ads.
@@ -830,10 +831,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getPostsReach
          */
-        public function getPostsReach(array $parameters = [])
-        {
-            //
-        }
+         public function getPostsReach(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a reason of ad rejection for pre-moderation.
@@ -845,10 +846,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getRejectionReason
          */
-        public function getRejectionReason(array $parameters = [])
-        {
-            //
-        }
+         public function getRejectionReason(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns statistics of performance indicators for ads, campaigns, clients or the whole account.
@@ -859,15 +860,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $period string Data grouping by dates: *day — statistics by days,, *month — statistics by months,, *overall — overall statistics. 'date_from' and 'date_to' parameters set temporary limits.
          * @param $date_from string Date to show statistics from. For different value of 'period' different date format is used: *day: YYYY-MM-DD, example: 2011-09-27 — September 27, 2011, **0 — day it was created on,, *month: YYYY-MM, example: 2011-09 — September 2011, **0 — month it was created in,, *overall: 0.
          * @param $date_to string Date to show statistics to. For different value of 'period' different date format is used: *day: YYYY-MM-DD, example: 2011-09-27 — September 27, 2011, **0 — current day,, *month: YYYY-MM, example: 2011-09 — September 2011, **0 — current month,, *overall: 0.
+         * @param $stats_fields array Additional fields to add to statistics
          *
          * @return array
          *
          * @see https://vk.com/dev/ads.getStatistics
          */
-        public function getStatistics(array $parameters = [])
-        {
-            //
-        }
+         public function getStatistics(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a set of auto-suggestions for various targeting parameters.
@@ -883,10 +885,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getSuggestions
          */
-        public function getSuggestions(array $parameters = [])
-        {
-            //
-        }
+         public function getSuggestions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of target groups.
@@ -899,10 +901,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getTargetGroups
          */
-        public function getTargetGroups(array $parameters = [])
-        {
-            //
-        }
+         public function getTargetGroups(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the size of targeting audience, and also recommended values for CPC and CPM.
@@ -922,10 +924,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getTargetingStats
          */
-        public function getTargetingStats(array $parameters = [])
-        {
-            //
-        }
+         public function getTargetingStats(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns URL to upload an ad photo to.
@@ -937,10 +939,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getUploadURL
          */
-        public function getUploadURL(array $parameters = [])
-        {
-            //
-        }
+         public function getUploadURL(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns URL to upload an ad video to.
@@ -949,10 +951,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.getVideoUploadURL
          */
-        public function getVideoUploadURL(array $parameters = [])
-        {
-            //
-        }
+         public function getVideoUploadURL(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Imports a list of advertiser's contacts to count VK registered users against the target group.
@@ -966,10 +968,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.importTargetContacts
          */
-        public function importTargetContacts(array $parameters = [])
-        {
-            //
-        }
+         public function importTargetContacts(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Removes managers and/or supervisors from advertising account.
@@ -981,10 +983,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.removeOfficeUsers
          */
-        public function removeOfficeUsers(array $parameters = [])
-        {
-            //
-        }
+         public function removeOfficeUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits ads.
@@ -996,10 +998,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.updateAds
          */
-        public function updateAds(array $parameters = [])
-        {
-            //
-        }
+         public function updateAds(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits advertising campaigns.
@@ -1011,10 +1013,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.updateCampaigns
          */
-        public function updateCampaigns(array $parameters = [])
-        {
-            //
-        }
+         public function updateCampaigns(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits clients of an advertising agency.
@@ -1026,10 +1028,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.updateClients
          */
-        public function updateClients(array $parameters = [])
-        {
-            //
-        }
+         public function updateClients(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a retarget group.
@@ -1047,10 +1049,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/ads.updateTargetGroup
          */
-        public function updateTargetGroup(array $parameters = [])
-        {
-            //
-        }
+         public function updateTargetGroup(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class AppWidgets
@@ -1065,10 +1068,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/appWidgets.update
          */
-        public function update(array $parameters = [])
-        {
-            //
-        }
+         public function update(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Apps
@@ -1080,10 +1084,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.deleteAppRequests
          */
-        public function deleteAppRequests(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAppRequests(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns applications data.
@@ -1100,10 +1104,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of applications (apps) available to users in the App Catalog.
@@ -1124,10 +1128,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.getCatalog
          */
-        public function getCatalog(array $parameters = [])
-        {
-            //
-        }
+         public function getCatalog(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates friends list for requests and invites in current app.
@@ -1142,10 +1146,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.getFriendsList
          */
-        public function getFriendsList(array $parameters = [])
-        {
-            //
-        }
+         public function getFriendsList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns players rating in the game.
@@ -1158,10 +1162,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.getLeaderboard
          */
-        public function getLeaderboard(array $parameters = [])
-        {
-            //
-        }
+         public function getLeaderboard(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns scopes for auth
@@ -1172,10 +1176,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.getScopes
          */
-        public function getScopes(array $parameters = [])
-        {
-            //
-        }
+         public function getScopes(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns user score in app
@@ -1186,10 +1190,36 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.getScore
          */
-        public function getScore(array $parameters = [])
-        {
-            //
-        }
+         public function getScore(array $parameters = [])
+         {
+             //
+         }
+
+        /**
+         * @param $promo_id integer Id of game promo action
+         * @param $user_id integer
+         *
+         * @return mixed
+         *
+         * @see https://vk.com/dev/apps.promoHasActiveGift
+         */
+         public function promoHasActiveGift(array $parameters = [])
+         {
+             //
+         }
+
+        /**
+         * @param $promo_id integer Id of game promo action
+         * @param $user_id integer
+         *
+         * @return mixed
+         *
+         * @see https://vk.com/dev/apps.promoUseGift
+         */
+         public function promoUseGift(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends a request to another user in an app that uses VK authorization.
@@ -1205,10 +1235,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/apps.sendRequest
          */
-        public function sendRequest(array $parameters = [])
-        {
-            //
-        }
+         public function sendRequest(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Auth
@@ -1225,10 +1256,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/auth.checkPhone
          */
-        public function checkPhone(array $parameters = [])
-        {
-            //
-        }
+         public function checkPhone(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to restore account access using a code received via SMS. " This method is only available for apps with [vk.com/dev/auth_direct|Direct authorization] access. "
@@ -1240,10 +1271,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/auth.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Board
@@ -1261,10 +1293,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.addTopic
          */
-        public function addTopic(array $parameters = [])
-        {
-            //
-        }
+         public function addTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Closes a topic on a community's discussion board so that comments cannot be posted.
@@ -1276,10 +1308,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.closeTopic
          */
-        public function closeTopic(array $parameters = [])
-        {
-            //
-        }
+         public function closeTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a comment on a topic on a community's discussion board.
@@ -1296,10 +1328,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a comment on a topic on a community's discussion board.
@@ -1312,10 +1344,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a topic from a community's discussion board.
@@ -1327,10 +1359,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.deleteTopic
          */
-        public function deleteTopic(array $parameters = [])
-        {
-            //
-        }
+         public function deleteTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a comment on a topic on a community's discussion board.
@@ -1345,10 +1377,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the title of a topic on a community's discussion board.
@@ -1361,10 +1393,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.editTopic
          */
-        public function editTopic(array $parameters = [])
-        {
-            //
-        }
+         public function editTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Pins a topic (fixes its place) to the top of a community's discussion board.
@@ -1376,10 +1408,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.fixTopic
          */
-        public function fixTopic(array $parameters = [])
-        {
-            //
-        }
+         public function fixTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a topic on a community's discussion board.
@@ -1397,10 +1429,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of topics on a community's discussion board.
@@ -1418,10 +1450,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.getTopics
          */
-        public function getTopics(array $parameters = [])
-        {
-            //
-        }
+         public function getTopics(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Re-opens a previously closed topic on a community's discussion board.
@@ -1433,10 +1465,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.openTopic
          */
-        public function openTopic(array $parameters = [])
-        {
-            //
-        }
+         public function openTopic(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a comment deleted from a topic on a community's discussion board.
@@ -1449,10 +1481,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Unpins a pinned topic from the top of a community's discussion board.
@@ -1464,10 +1496,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/board.unfixTopic
          */
-        public function unfixTopic(array $parameters = [])
-        {
-            //
-        }
+         public function unfixTopic(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Database
@@ -1483,10 +1516,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getChairs
          */
-        public function getChairs(array $parameters = [])
-        {
-            //
-        }
+         public function getChairs(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of cities.
@@ -1502,10 +1535,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getCities
          */
-        public function getCities(array $parameters = [])
-        {
-            //
-        }
+         public function getCities(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about cities by their IDs.
@@ -1516,10 +1549,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getCitiesById
          */
-        public function getCitiesById(array $parameters = [])
-        {
-            //
-        }
+         public function getCitiesById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of countries.
@@ -1533,10 +1566,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getCountries
          */
-        public function getCountries(array $parameters = [])
-        {
-            //
-        }
+         public function getCountries(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about countries by their IDs.
@@ -1547,10 +1580,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getCountriesById
          */
-        public function getCountriesById(array $parameters = [])
-        {
-            //
-        }
+         public function getCountriesById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of faculties (i.e., university departments).
@@ -1563,10 +1596,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getFaculties
          */
-        public function getFaculties(array $parameters = [])
-        {
-            //
-        }
+         public function getFaculties(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Get metro stations by city
@@ -1580,10 +1613,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getMetroStations
          */
-        public function getMetroStations(array $parameters = [])
-        {
-            //
-        }
+         public function getMetroStations(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Get metro station by his id
@@ -1594,10 +1627,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getMetroStationsById
          */
-        public function getMetroStationsById(array $parameters = [])
-        {
-            //
-        }
+         public function getMetroStationsById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of regions.
@@ -1611,10 +1644,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getRegions
          */
-        public function getRegions(array $parameters = [])
-        {
-            //
-        }
+         public function getRegions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of school classes specified for the country.
@@ -1625,10 +1658,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getSchoolClasses
          */
-        public function getSchoolClasses(array $parameters = [])
-        {
-            //
-        }
+         public function getSchoolClasses(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of schools.
@@ -1642,10 +1675,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getSchools
          */
-        public function getSchools(array $parameters = [])
-        {
-            //
-        }
+         public function getSchools(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of higher education institutions.
@@ -1660,10 +1693,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/database.getUniversities
          */
-        public function getUniversities(array $parameters = [])
-        {
-            //
-        }
+         public function getUniversities(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Docs
@@ -1679,10 +1713,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a user or community document.
@@ -1694,10 +1728,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a document.
@@ -1711,10 +1745,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns detailed information about user or community documents.
@@ -1723,29 +1757,31 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $offset integer Offset needed to return a specific subset of documents.
          * @param $type integer
          * @param $owner_id integer ID of the user or community that owns the documents. Use a negative value to designate a community ID.
+         * @param $return_tags boolean
          *
          * @return array
          *
          * @see https://vk.com/dev/docs.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about documents by their IDs.
          *
          * @param $docs array Document IDs. Example: , "66748_91488,66748_91455",
+         * @param $return_tags boolean
          *
          * @return array
          *
          * @see https://vk.com/dev/docs.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for document upload.
@@ -1757,10 +1793,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.getMessagesUploadServer
          */
-        public function getMessagesUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getMessagesUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns documents types available for current user.
@@ -1771,10 +1807,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.getTypes
          */
-        public function getTypes(array $parameters = [])
-        {
-            //
-        }
+         public function getTypes(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for document upload.
@@ -1785,10 +1821,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.getUploadServer
          */
-        public function getUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for document upload onto a user's or community's wall.
@@ -1799,10 +1835,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/docs.getWallUploadServer
          */
-        public function getWallUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getWallUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves a document after [vk.com/dev/upload_files_2|uploading it to a server].
@@ -1810,15 +1846,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $file string This parameter is returned when the file is [vk.com/dev/upload_files_2|uploaded to the server].
          * @param $title string Document title.
          * @param $tags string Document tags.
+         * @param $return_tags boolean
          *
          * @return array
          *
          * @see https://vk.com/dev/docs.save
          */
-        public function save(array $parameters = [])
-        {
-            //
-        }
+         public function save(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of documents matching the search criteria.
@@ -1827,15 +1864,17 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $search_own boolean
          * @param $count integer Number of results to return.
          * @param $offset integer Offset needed to return a specific subset of results.
+         * @param $return_tags boolean
          *
          * @return array
          *
          * @see https://vk.com/dev/docs.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Fave
@@ -1847,10 +1886,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addArticle
          */
-        public function addArticle(array $parameters = [])
-        {
-            //
-        }
+         public function addArticle(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a link to user faves.
@@ -1861,10 +1900,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addLink
          */
-        public function addLink(array $parameters = [])
-        {
-            //
-        }
+         public function addLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -1874,10 +1913,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addPage
          */
-        public function addPage(array $parameters = [])
-        {
-            //
-        }
+         public function addPage(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -1888,10 +1927,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addPost
          */
-        public function addPost(array $parameters = [])
-        {
-            //
-        }
+         public function addPost(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -1902,22 +1941,23 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addProduct
          */
-        public function addProduct(array $parameters = [])
-        {
-            //
-        }
+         public function addProduct(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $name string
+         * @param $position string
          *
          * @return int
          *
          * @see https://vk.com/dev/fave.addTag
          */
-        public function addTag(array $parameters = [])
-        {
-            //
-        }
+         public function addTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -1928,10 +1968,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.addVideo
          */
-        public function addVideo(array $parameters = [])
-        {
-            //
-        }
+         public function addVideo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $id integer
@@ -1941,10 +1981,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.editTag
          */
-        public function editTag(array $parameters = [])
-        {
-            //
-        }
+         public function editTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $extended boolean '1' — to return additional 'wall', 'profiles', and 'groups' fields. By default: '0'.
@@ -1959,10 +1999,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $offset integer
@@ -1975,30 +2015,30 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.getPages
          */
-        public function getPages(array $parameters = [])
-        {
-            //
-        }
+         public function getPages(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @return array
          *
          * @see https://vk.com/dev/fave.getTags
          */
-        public function getTags(array $parameters = [])
-        {
-            //
-        }
+         public function getTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @return mixed
          *
          * @see https://vk.com/dev/fave.markSeen
          */
-        public function markSeen(array $parameters = [])
-        {
-            //
-        }
+         public function markSeen(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -2008,10 +2048,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removeArticle
          */
-        public function removeArticle(array $parameters = [])
-        {
-            //
-        }
+         public function removeArticle(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Removes link from the user's faves.
@@ -2023,10 +2063,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removeLink
          */
-        public function removeLink(array $parameters = [])
-        {
-            //
-        }
+         public function removeLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -2036,10 +2076,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removePage
          */
-        public function removePage(array $parameters = [])
-        {
-            //
-        }
+         public function removePage(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -2049,10 +2089,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removePost
          */
-        public function removePost(array $parameters = [])
-        {
-            //
-        }
+         public function removePost(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -2062,10 +2102,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removeProduct
          */
-        public function removeProduct(array $parameters = [])
-        {
-            //
-        }
+         public function removeProduct(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $id integer
@@ -2074,10 +2114,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.removeTag
          */
-        public function removeTag(array $parameters = [])
-        {
-            //
-        }
+         public function removeTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $ids array
@@ -2086,10 +2126,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.reorderTags
          */
-        public function reorderTags(array $parameters = [])
-        {
-            //
-        }
+         public function reorderTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -2100,10 +2140,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.setPageTags
          */
-        public function setPageTags(array $parameters = [])
-        {
-            //
-        }
+         public function setPageTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $item_type string
@@ -2117,10 +2157,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.setTags
          */
-        public function setTags(array $parameters = [])
-        {
-            //
-        }
+         public function setTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -2130,10 +2170,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/fave.trackPageInteraction
          */
-        public function trackPageInteraction(array $parameters = [])
-        {
-            //
-        }
+         public function trackPageInteraction(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Friends
@@ -2149,10 +2190,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates a new friend list for the current user.
@@ -2164,10 +2205,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.addList
          */
-        public function addList(array $parameters = [])
-        {
-            //
-        }
+         public function addList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Checks the current user's friendship status with other specified users.
@@ -2179,10 +2220,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.areFriends
          */
-        public function areFriends(array $parameters = [])
-        {
-            //
-        }
+         public function areFriends(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Declines a friend request or deletes a user from the current user's friend list.
@@ -2193,10 +2234,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks all incoming friend requests as viewed.
@@ -2205,10 +2246,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.deleteAllRequests
          */
-        public function deleteAllRequests(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAllRequests(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a friend list of the current user.
@@ -2219,10 +2260,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.deleteList
          */
-        public function deleteList(array $parameters = [])
-        {
-            //
-        }
+         public function deleteList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the friend lists of the selected user.
@@ -2234,10 +2275,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a friend list of the current user.
@@ -2252,10 +2293,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.editList
          */
-        public function editList(array $parameters = [])
-        {
-            //
-        }
+         public function editList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of user IDs or detailed information about a user's friends.
@@ -2273,10 +2314,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of the current user's friends who installed the application.
@@ -2285,10 +2326,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getAppUsers
          */
-        public function getAppUsers(array $parameters = [])
-        {
-            //
-        }
+         public function getAppUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the current user's friends whose phone numbers, validated or specified in a profile, are in a given list.
@@ -2300,10 +2341,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getByPhones
          */
-        public function getByPhones(array $parameters = [])
-        {
-            //
-        }
+         public function getByPhones(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the user's friend lists.
@@ -2315,10 +2356,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getLists
          */
-        public function getLists(array $parameters = [])
-        {
-            //
-        }
+         public function getLists(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of user IDs of the mutual friends of two users.
@@ -2334,10 +2375,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getMutual
          */
-        public function getMutual(array $parameters = [])
-        {
-            //
-        }
+         public function getMutual(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of user IDs of a user's friends who are online.
@@ -2353,10 +2394,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getOnline
          */
-        public function getOnline(array $parameters = [])
-        {
-            //
-        }
+         public function getOnline(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of user IDs of the current user's recently added friends.
@@ -2367,10 +2408,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getRecent
          */
-        public function getRecent(array $parameters = [])
-        {
-            //
-        }
+         public function getRecent(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about the current user's incoming and outgoing friend requests.
@@ -2390,10 +2431,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getRequests
          */
-        public function getRequests(array $parameters = [])
-        {
-            //
-        }
+         public function getRequests(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of profiles of users whom the current user may know.
@@ -2408,10 +2449,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.getSuggestions
          */
-        public function getSuggestions(array $parameters = [])
-        {
-            //
-        }
+         public function getSuggestions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of friends matching the search criteria.
@@ -2427,10 +2468,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/friends.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Gifts
@@ -2446,10 +2488,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/gifts.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Groups
@@ -2469,14 +2512,14 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $timetable string
          * @param $is_main_address boolean
          *
-         * @return mixed
+         * @return int
          *
          * @see https://vk.com/dev/groups.addAddress
          */
-        public function addAddress(array $parameters = [])
-        {
-            //
-        }
+         public function addAddress(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2488,10 +2531,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.addCallbackServer
          */
-        public function addCallbackServer(array $parameters = [])
-        {
-            //
-        }
+         public function addCallbackServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to add a link to the community.
@@ -2504,10 +2547,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.addLink
          */
-        public function addLink(array $parameters = [])
-        {
-            //
-        }
+         public function addLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to approve join request to the community.
@@ -2519,10 +2562,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.approveRequest
          */
-        public function approveRequest(array $parameters = [])
-        {
-            //
-        }
+         public function approveRequest(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2536,10 +2579,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.ban
          */
-        public function ban(array $parameters = [])
-        {
-            //
-        }
+         public function ban(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates a new community.
@@ -2554,10 +2597,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.create
          */
-        public function create(array $parameters = [])
-        {
-            //
-        }
+         public function create(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2567,10 +2610,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.deleteCallbackServer
          */
-        public function deleteCallbackServer(array $parameters = [])
-        {
-            //
-        }
+         public function deleteCallbackServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to delete a link from the community.
@@ -2582,10 +2625,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.deleteLink
          */
-        public function deleteLink(array $parameters = [])
-        {
-            //
-        }
+         public function deleteLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2594,10 +2637,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.disableOnline
          */
-        public function disableOnline(array $parameters = [])
-        {
-            //
-        }
+         public function disableOnline(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a community.
@@ -2652,10 +2695,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2677,10 +2720,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.editAddress
          */
-        public function editAddress(array $parameters = [])
-        {
-            //
-        }
+         public function editAddress(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2693,10 +2736,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.editCallbackServer
          */
-        public function editCallbackServer(array $parameters = [])
-        {
-            //
-        }
+         public function editCallbackServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to edit a link in the community.
@@ -2709,10 +2752,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.editLink
          */
-        public function editLink(array $parameters = [])
-        {
-            //
-        }
+         public function editLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to add, remove or edit the community manager.
@@ -2729,10 +2772,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.editManager
          */
-        public function editManager(array $parameters = [])
-        {
-            //
-        }
+         public function editManager(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2741,10 +2784,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.enableOnline
          */
-        public function enableOnline(array $parameters = [])
-        {
-            //
-        }
+         public function enableOnline(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the communities to which a user belongs.
@@ -2760,10 +2803,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of community addresses.
@@ -2780,10 +2823,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getAddresses
          */
-        public function getAddresses(array $parameters = [])
-        {
-            //
-        }
+         public function getAddresses(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of users on a community blacklist.
@@ -2798,10 +2841,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getBanned
          */
-        public function getBanned(array $parameters = [])
-        {
-            //
-        }
+         public function getBanned(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about communities by their IDs.
@@ -2814,10 +2857,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns Callback API confirmation code for the community.
@@ -2828,10 +2871,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getCallbackConfirmationCode
          */
-        public function getCallbackConfirmationCode(array $parameters = [])
-        {
-            //
-        }
+         public function getCallbackConfirmationCode(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -2841,10 +2884,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getCallbackServers
          */
-        public function getCallbackServers(array $parameters = [])
-        {
-            //
-        }
+         public function getCallbackServers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns [vk.com/dev/callback_api|Callback API] notifications settings.
@@ -2856,10 +2899,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getCallbackSettings
          */
-        public function getCallbackSettings(array $parameters = [])
-        {
-            //
-        }
+         public function getCallbackSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns communities list for a catalog category.
@@ -2871,10 +2914,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getCatalog
          */
-        public function getCatalog(array $parameters = [])
-        {
-            //
-        }
+         public function getCatalog(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns categories list for communities catalog
@@ -2886,10 +2929,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getCatalogInfo
          */
-        public function getCatalogInfo(array $parameters = [])
-        {
-            //
-        }
+         public function getCatalogInfo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns invited users list of a community
@@ -2904,10 +2947,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getInvitedUsers
          */
-        public function getInvitedUsers(array $parameters = [])
-        {
-            //
-        }
+         public function getInvitedUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of invitations to join communities and events.
@@ -2920,10 +2963,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getInvites
          */
-        public function getInvites(array $parameters = [])
-        {
-            //
-        }
+         public function getInvites(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the data needed to query a Long Poll server for events
@@ -2934,10 +2977,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getLongPollServer
          */
-        public function getLongPollServer(array $parameters = [])
-        {
-            //
-        }
+         public function getLongPollServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns Long Poll notification settings
@@ -2948,10 +2991,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getLongPollSettings
          */
-        public function getLongPollSettings(array $parameters = [])
-        {
-            //
-        }
+         public function getLongPollSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of community members.
@@ -2967,10 +3010,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getMembers
          */
-        public function getMembers(array $parameters = [])
-        {
-            //
-        }
+         public function getMembers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of requests to the community.
@@ -2984,34 +3027,34 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.getRequests
          */
-        public function getRequests(array $parameters = [])
-        {
-            //
-        }
+         public function getRequests(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns community settings.
          *
          * @param $group_id integer Community ID.
          *
-         * @return int
+         * @return array
          *
          * @see https://vk.com/dev/groups.getSettings
          */
-        public function getSettings(array $parameters = [])
-        {
-            //
-        }
+         public function getSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @return array
          *
          * @see https://vk.com/dev/groups.getTokenPermissions
          */
-        public function getTokenPermissions(array $parameters = [])
-        {
-            //
-        }
+         public function getTokenPermissions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to invite friends to the community.
@@ -3023,10 +3066,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.invite
          */
-        public function invite(array $parameters = [])
-        {
-            //
-        }
+         public function invite(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information specifying whether a user is a member of a community.
@@ -3040,10 +3083,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.isMember
          */
-        public function isMember(array $parameters = [])
-        {
-            //
-        }
+         public function isMember(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * With this method you can join the group or public page, and also confirm your participation in an event.
@@ -3055,10 +3098,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.join
          */
-        public function join(array $parameters = [])
-        {
-            //
-        }
+         public function join(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * With this method you can leave a group, public page, or event.
@@ -3069,10 +3112,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.leave
          */
-        public function leave(array $parameters = [])
-        {
-            //
-        }
+         public function leave(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Removes a user from the community.
@@ -3084,10 +3127,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.removeUser
          */
-        public function removeUser(array $parameters = [])
-        {
-            //
-        }
+         public function removeUser(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to reorder links in the community.
@@ -3100,10 +3143,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.reorderLink
          */
-        public function reorderLink(array $parameters = [])
-        {
-            //
-        }
+         public function reorderLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of communities matching the search criteria.
@@ -3122,10 +3165,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allow to set notifications settings for group.
@@ -3178,10 +3221,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.setCallbackSettings
          */
-        public function setCallbackSettings(array $parameters = [])
-        {
-            //
-        }
+         public function setCallbackSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sets Long Poll notification settings
@@ -3233,10 +3276,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.setLongPollSettings
          */
-        public function setLongPollSettings(array $parameters = [])
-        {
-            //
-        }
+         public function setLongPollSettings(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $group_id integer
@@ -3246,10 +3289,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/groups.unban
          */
-        public function unban(array $parameters = [])
-        {
-            //
-        }
+         public function unban(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Leads
@@ -3268,10 +3312,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.checkUser
          */
-        public function checkUser(array $parameters = [])
-        {
-            //
-        }
+         public function checkUser(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Completes the lead started by user.
@@ -3284,10 +3328,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.complete
          */
-        public function complete(array $parameters = [])
-        {
-            //
-        }
+         public function complete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns lead stats data.
@@ -3301,10 +3345,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.getStats
          */
-        public function getStats(array $parameters = [])
-        {
-            //
-        }
+         public function getStats(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of last user actions for the offer.
@@ -3320,10 +3364,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.getUsers
          */
-        public function getUsers(array $parameters = [])
-        {
-            //
-        }
+         public function getUsers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Counts the metric event.
@@ -3334,10 +3378,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.metricHit
          */
-        public function metricHit(array $parameters = [])
-        {
-            //
-        }
+         public function metricHit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates new session for the user passing the offer.
@@ -3353,10 +3397,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/leads.start
          */
-        public function start(array $parameters = [])
-        {
-            //
-        }
+         public function start(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Likes
@@ -3373,10 +3418,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/likes.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes the specified object from the 'Likes' list of the current user.
@@ -3384,15 +3429,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $type string Object type: 'post' — post on user or community wall, 'comment' — comment on a wall post, 'photo' — photo, 'audio' — audio, 'video' — video, 'note' — note, 'photo_comment' — comment on the photo, 'video_comment' — comment on the video, 'topic_comment' — comment in the discussion, 'sitepage' — page of the site where the [vk.com/dev/Like|Like widget] is installed
          * @param $owner_id integer ID of the user or community that owns the object.
          * @param $item_id integer Object ID.
+         * @param $access_key string Access key required for an object owned by a private entity.
          *
          * @return array
          *
          * @see https://vk.com/dev/likes.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of users who added the specified object to their 'Likes' list.
@@ -3412,10 +3458,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/likes.getList
          */
-        public function getList(array $parameters = [])
-        {
-            //
-        }
+         public function getList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Checks for the object in the 'Likes' list of the specified user.
@@ -3429,10 +3475,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/likes.isLiked
          */
-        public function isLiked(array $parameters = [])
-        {
-            //
-        }
+         public function isLiked(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Market
@@ -3455,10 +3502,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates new collection of items
@@ -3472,10 +3519,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.addAlbum
          */
-        public function addAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function addAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds an item to one or multiple collections.
@@ -3488,10 +3535,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.addToAlbum
          */
-        public function addToAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function addToAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates a new comment for an item.
@@ -3509,10 +3556,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes an item.
@@ -3524,10 +3571,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a collection of items.
@@ -3539,10 +3586,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.deleteAlbum
          */
-        public function deleteAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes an item's comment
@@ -3554,10 +3601,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits an item.
@@ -3577,10 +3624,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a collection of items
@@ -3595,10 +3642,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.editAlbum
          */
-        public function editAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function editAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Chages item comment's text
@@ -3612,10 +3659,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns items list for a community.
@@ -3630,10 +3677,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns items album's data
@@ -3645,10 +3692,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.getAlbumById
          */
-        public function getAlbumById(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbumById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns community's collections list.
@@ -3661,10 +3708,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.getAlbums
          */
-        public function getAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about market items by their ids.
@@ -3676,10 +3723,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of market categories.
@@ -3691,10 +3738,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.getCategories
          */
-        public function getCategories(array $parameters = [])
-        {
-            //
-        }
+         public function getCategories(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns comments list for an item.
@@ -3713,10 +3760,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Removes an item from one or multiple collections.
@@ -3729,10 +3776,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.removeFromAlbum
          */
-        public function removeFromAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function removeFromAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reorders the collections list.
@@ -3746,10 +3793,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.reorderAlbums
          */
-        public function reorderAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function reorderAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Changes item place in a collection.
@@ -3764,10 +3811,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.reorderItems
          */
-        public function reorderItems(array $parameters = [])
-        {
-            //
-        }
+         public function reorderItems(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends a complaint to the item.
@@ -3780,10 +3827,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.report
          */
-        public function report(array $parameters = [])
-        {
-            //
-        }
+         public function report(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends a complaint to the item's comment.
@@ -3796,10 +3843,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.reportComment
          */
-        public function reportComment(array $parameters = [])
-        {
-            //
-        }
+         public function reportComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores recently deleted item
@@ -3811,10 +3858,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a recently deleted comment
@@ -3826,10 +3873,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Searches market items in a community's catalog
@@ -3851,10 +3898,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/market.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Messages
@@ -3864,15 +3912,16 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @param $chat_id integer Chat ID.
          * @param $user_id integer ID of the user to be added to the chat.
+         * @param $visible_messages_count integer
          *
          * @return mixed
          *
          * @see https://vk.com/dev/messages.addChatUser
          */
-        public function addChatUser(array $parameters = [])
-        {
-            //
-        }
+         public function addChatUser(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows sending messages from community to the current user.
@@ -3884,25 +3933,26 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.allowMessagesFromGroup
          */
-        public function allowMessagesFromGroup(array $parameters = [])
-        {
-            //
-        }
+         public function allowMessagesFromGroup(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates a chat with several participants.
          *
          * @param $user_ids array IDs of the users to be added to the chat.
          * @param $title string Chat title.
+         * @param $group_id integer
          *
          * @return integer
          *
          * @see https://vk.com/dev/messages.createChat
          */
-        public function createChat(array $parameters = [])
-        {
-            //
-        }
+         public function createChat(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes one or more messages.
@@ -3916,10 +3966,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a chat's cover picture.
@@ -3931,10 +3981,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.deleteChatPhoto
          */
-        public function deleteChatPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function deleteChatPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes all private messages in a conversation.
@@ -3947,10 +3997,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.deleteConversation
          */
-        public function deleteConversation(array $parameters = [])
-        {
-            //
-        }
+         public function deleteConversation(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Denies sending message from community to the current user.
@@ -3961,17 +4011,16 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.denyMessagesFromGroup
          */
-        public function denyMessagesFromGroup(array $parameters = [])
-        {
-            //
-        }
+         public function denyMessagesFromGroup(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the message.
          *
          * @param $peer_id integer Destination ID. "For user: 'User ID', e.g. '12345'. For chat: '2000000000' + 'chat_id', e.g. '2000000001'. For community: '- community ID', e.g. '-12345'. "
          * @param $message string (Required if 'attachments' is not set.) Text of the message.
-         * @param $message_id integer
          * @param $lat number Geographical latitude of a check-in, in degrees (from -90 to 90).
          * @param $long number Geographical longitude of a check-in, in degrees (from -180 to 180).
          * @param $attachment string (Required if 'message' is not set.) List of objects attached to the message, separated by commas, in the following format: "<owner_id>_<media_id>", '' — Type of media attachment: 'photo' — photo, 'video' — video, 'audio' — audio, 'doc' — document, 'wall' — wall post, '<owner_id>' — ID of the media attachment owner. '<media_id>' — media attachment ID. Example: "photo100172_166443618"
@@ -3979,15 +4028,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $keep_snippets boolean '1' — to keep attached snippets.
          * @param $group_id integer Group ID (for group messages with user access token)
          * @param $dont_parse_links boolean
+         * @param $message_id integer
          *
          * @return int
          *
          * @see https://vk.com/dev/messages.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the title of a chat.
@@ -3999,10 +4049,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.editChat
          */
-        public function editChat(array $parameters = [])
-        {
-            //
-        }
+         public function editChat(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns messages by their IDs within the conversation.
@@ -4017,10 +4067,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getByConversationMessageId
          */
-        public function getByConversationMessageId(array $parameters = [])
-        {
-            //
-        }
+         public function getByConversationMessageId(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns messages by their IDs.
@@ -4035,10 +4085,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $peer_id integer
@@ -4049,10 +4099,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getChatPreview
          */
-        public function getChatPreview(array $parameters = [])
-        {
-            //
-        }
+         public function getChatPreview(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of users participating in a chat.
@@ -4065,10 +4115,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getConversationMembers
          */
-        public function getConversationMembers(array $parameters = [])
-        {
-            //
-        }
+         public function getConversationMembers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the current user's conversations.
@@ -4085,10 +4135,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getConversations
          */
-        public function getConversations(array $parameters = [])
-        {
-            //
-        }
+         public function getConversations(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns conversations by their IDs
@@ -4102,10 +4152,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getConversationsById
          */
-        public function getConversationsById(array $parameters = [])
-        {
-            //
-        }
+         public function getConversationsById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns message history for the specified user or group chat.
@@ -4124,10 +4174,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getHistory
          */
-        public function getHistory(array $parameters = [])
-        {
-            //
-        }
+         public function getHistory(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns media files from the dialog or group chat.
@@ -4137,7 +4187,7 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $start_from string Message ID to start return results from.
          * @param $count integer Number of objects to return.
          * @param $photo_sizes boolean '1' — to return photo sizes in a
-         * @param $fields array Additional profile [vk.com/dev/fields|fields] to return.
+         * @param $fields array Additional profile [vk.com/dev/fields|fields] to return. 
          * @param $group_id integer Group ID (for group messages with group access token)
          * @param $preserve_order boolean
          * @param $max_forwards_level integer
@@ -4146,10 +4196,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getHistoryAttachments
          */
-        public function getHistoryAttachments(array $parameters = [])
-        {
-            //
-        }
+         public function getHistoryAttachments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $peer_id integer Destination ID.
@@ -4160,10 +4210,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getInviteLink
          */
-        public function getInviteLink(array $parameters = [])
-        {
-            //
-        }
+         public function getInviteLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a user's current status and date of last activity.
@@ -4174,10 +4224,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getLastActivity
          */
-        public function getLastActivity(array $parameters = [])
-        {
-            //
-        }
+         public function getLastActivity(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns updates in user's private messages.
@@ -4199,10 +4249,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getLongPollHistory
          */
-        public function getLongPollHistory(array $parameters = [])
-        {
-            //
-        }
+         public function getLongPollHistory(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns data required for connection to a Long Poll server.
@@ -4215,10 +4265,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.getLongPollServer
          */
-        public function getLongPollServer(array $parameters = [])
-        {
-            //
-        }
+         public function getLongPollServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information whether sending messages from the community to current user is allowed.
@@ -4230,10 +4280,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.isMessagesFromGroupAllowed
          */
-        public function isMessagesFromGroupAllowed(array $parameters = [])
-        {
-            //
-        }
+         public function isMessagesFromGroupAllowed(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $link string Invitation link.
@@ -4242,10 +4292,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.joinChatByInviteLink
          */
-        public function joinChatByInviteLink(array $parameters = [])
-        {
-            //
-        }
+         public function joinChatByInviteLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks and unmarks conversations as unanswered.
@@ -4258,10 +4308,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.markAsAnsweredConversation
          */
-        public function markAsAnsweredConversation(array $parameters = [])
-        {
-            //
-        }
+         public function markAsAnsweredConversation(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks and unmarks messages as important (starred).
@@ -4273,10 +4323,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.markAsImportant
          */
-        public function markAsImportant(array $parameters = [])
-        {
-            //
-        }
+         public function markAsImportant(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks and unmarks conversations as important.
@@ -4289,10 +4339,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.markAsImportantConversation
          */
-        public function markAsImportantConversation(array $parameters = [])
-        {
-            //
-        }
+         public function markAsImportantConversation(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Marks messages as read.
@@ -4306,10 +4356,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.markAsRead
          */
-        public function markAsRead(array $parameters = [])
-        {
-            //
-        }
+         public function markAsRead(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Pin a message.
@@ -4321,10 +4371,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.pin
          */
-        public function pin(array $parameters = [])
-        {
-            //
-        }
+         public function pin(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows the current user to leave a chat or, if the current user started the chat, allows the user to remove another user from the chat.
@@ -4337,10 +4387,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.removeChatUser
          */
-        public function removeChatUser(array $parameters = [])
-        {
-            //
-        }
+         public function removeChatUser(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a deleted message.
@@ -4352,10 +4402,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the current user's private messages that match search criteria.
@@ -4374,10 +4424,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of the current user's conversations that match search criteria.
@@ -4392,10 +4442,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.searchConversations
          */
-        public function searchConversations(array $parameters = [])
-        {
-            //
-        }
+         public function searchConversations(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends a message.
@@ -4412,22 +4462,22 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $attachment string (Required if 'message' is not set.) List of objects attached to the message, separated by commas, in the following format: "<owner_id>_<media_id>", '' — Type of media attachment: 'photo' — photo, 'video' — video, 'audio' — audio, 'doc' — document, 'wall' — wall post, '<owner_id>' — ID of the media attachment owner. '<media_id>' — media attachment ID. Example: "photo100172_166443618"
          * @param $reply_to integer
          * @param $forward_messages array ID of forwarded messages, separated with a comma. Listed messages of the sender will be shown in the message body at the recipient's. Example: "123,431,544"
-         * @param $forward string
          * @param $sticker_id integer Sticker id.
          * @param $group_id integer Group ID (for group messages with group access token)
          * @param $keyboard string
          * @param $payload string
          * @param $dont_parse_links boolean
          * @param $disable_mentions boolean
+         * @param $intent string
          *
          * @return integer
          *
          * @see https://vk.com/dev/messages.send
          */
-        public function send(array $parameters = [])
-        {
-            //
-        }
+         public function send(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Changes the status of a user as typing in a conversation.
@@ -4441,10 +4491,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.setActivity
          */
-        public function setActivity(array $parameters = [])
-        {
-            //
-        }
+         public function setActivity(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sets a previously-uploaded picture as the cover picture of a chat.
@@ -4455,10 +4505,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.setChatPhoto
          */
-        public function setChatPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function setChatPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $peer_id integer
@@ -4468,10 +4518,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/messages.unpin
          */
-        public function unpin(array $parameters = [])
-        {
-            //
-        }
+         public function unpin(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Newsfeed
@@ -4486,10 +4537,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.addBan
          */
-        public function addBan(array $parameters = [])
-        {
-            //
-        }
+         public function addBan(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows news from previously banned users and communities to be shown in the current user's newsfeed.
@@ -4501,10 +4552,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.deleteBan
          */
-        public function deleteBan(array $parameters = [])
-        {
-            //
-        }
+         public function deleteBan(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $list_id integer
@@ -4513,10 +4564,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.deleteList
          */
-        public function deleteList(array $parameters = [])
-        {
-            //
-        }
+         public function deleteList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns data required to show newsfeed for the current user.
@@ -4536,10 +4587,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of users and communities banned from the current user's newsfeed.
@@ -4552,10 +4603,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getBanned
          */
-        public function getBanned(array $parameters = [])
-        {
-            //
-        }
+         public function getBanned(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments in the current user's newsfeed.
@@ -4573,10 +4624,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of newsfeeds followed by the current user.
@@ -4588,10 +4639,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getLists
          */
-        public function getLists(array $parameters = [])
-        {
-            //
-        }
+         public function getLists(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of posts on user walls in which the current user is mentioned.
@@ -4606,10 +4657,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getMentions
          */
-        public function getMentions(array $parameters = [])
-        {
-            //
-        }
+         public function getMentions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * , Returns a list of newsfeeds recommended to the current user.
@@ -4625,10 +4676,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getRecommended
          */
-        public function getRecommended(array $parameters = [])
-        {
-            //
-        }
+         public function getRecommended(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns communities and users that current user is suggested to follow.
@@ -4642,10 +4693,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.getSuggestedSources
          */
-        public function getSuggestedSources(array $parameters = [])
-        {
-            //
-        }
+         public function getSuggestedSources(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Hides an item from the newsfeed.
@@ -4658,10 +4709,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.ignoreItem
          */
-        public function ignoreItem(array $parameters = [])
-        {
-            //
-        }
+         public function ignoreItem(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates and edits user newsfeed lists
@@ -4675,10 +4726,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.saveList
          */
-        public function saveList(array $parameters = [])
-        {
-            //
-        }
+         public function saveList(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns search results by statuses.
@@ -4697,10 +4748,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a hidden item to the newsfeed.
@@ -4713,10 +4764,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.unignoreItem
          */
-        public function unignoreItem(array $parameters = [])
-        {
-            //
-        }
+         public function unignoreItem(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Unsubscribes the current user from specified newsfeeds.
@@ -4729,10 +4780,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/newsfeed.unsubscribe
          */
-        public function unsubscribe(array $parameters = [])
-        {
-            //
-        }
+         public function unsubscribe(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Notes
@@ -4749,10 +4801,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a new comment on a note.
@@ -4767,10 +4819,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a note of the current user.
@@ -4781,10 +4833,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a comment on a note.
@@ -4796,10 +4848,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a note of the current user.
@@ -4814,10 +4866,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a comment on a note.
@@ -4830,10 +4882,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of notes created by a user.
@@ -4848,10 +4900,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a note by its ID.
@@ -4864,10 +4916,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a note.
@@ -4882,10 +4934,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a deleted comment on a note.
@@ -4897,10 +4949,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notes.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Notifications
@@ -4918,10 +4971,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notifications.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Resets the counter of new notifications about other users' feedback to the current user's wall posts.
@@ -4930,10 +4983,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notifications.markAsViewed
          */
-        public function markAsViewed(array $parameters = [])
-        {
-            //
-        }
+         public function markAsViewed(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_ids array
@@ -4945,10 +4998,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/notifications.sendMessage
          */
-        public function sendMessage(array $parameters = [])
-        {
-            //
-        }
+         public function sendMessage(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Orders
@@ -4962,10 +5016,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.cancelSubscription
          */
-        public function cancelSubscription(array $parameters = [])
-        {
-            //
-        }
+         public function cancelSubscription(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Changes order status.
@@ -4979,10 +5033,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.changeState
          */
-        public function changeState(array $parameters = [])
-        {
-            //
-        }
+         public function changeState(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of orders.
@@ -4995,10 +5049,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -5008,10 +5062,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.getAmount
          */
-        public function getAmount(array $parameters = [])
-        {
-            //
-        }
+         public function getAmount(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about orders by their IDs.
@@ -5024,10 +5078,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -5037,10 +5091,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.getUserSubscriptionById
          */
-        public function getUserSubscriptionById(array $parameters = [])
-        {
-            //
-        }
+         public function getUserSubscriptionById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -5049,10 +5103,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.getUserSubscriptions
          */
-        public function getUserSubscriptions(array $parameters = [])
-        {
-            //
-        }
+         public function getUserSubscriptions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $user_id integer
@@ -5063,10 +5117,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/orders.updateSubscription
          */
-        public function updateSubscription(array $parameters = [])
-        {
-            //
-        }
+         public function updateSubscription(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Pages
@@ -5080,10 +5135,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.clearCache
          */
-        public function clearCache(array $parameters = [])
-        {
-            //
-        }
+         public function clearCache(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about a wiki page.
@@ -5100,10 +5155,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of all previous versions of a wiki page.
@@ -5116,10 +5171,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.getHistory
          */
-        public function getHistory(array $parameters = [])
-        {
-            //
-        }
+         public function getHistory(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of wiki pages in a group.
@@ -5130,10 +5185,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.getTitles
          */
-        public function getTitles(array $parameters = [])
-        {
-            //
-        }
+         public function getTitles(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the text of one of the previous versions of a wiki page.
@@ -5147,10 +5202,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.getVersion
          */
-        public function getVersion(array $parameters = [])
-        {
-            //
-        }
+         public function getVersion(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns HTML representation of the wiki markup.
@@ -5162,10 +5217,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.parseWiki
          */
-        public function parseWiki(array $parameters = [])
-        {
-            //
-        }
+         public function parseWiki(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves the text of a wiki page.
@@ -5180,10 +5235,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.save
          */
-        public function save(array $parameters = [])
-        {
-            //
-        }
+         public function save(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves modified read and edit access settings for a wiki page.
@@ -5198,10 +5253,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/pages.saveAccess
          */
-        public function saveAccess(array $parameters = [])
-        {
-            //
-        }
+         public function saveAccess(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Photos
@@ -5217,10 +5273,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.confirmTag
          */
-        public function confirmTag(array $parameters = [])
-        {
-            //
-        }
+         public function confirmTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to copy a photo to the "Saved photos" album
@@ -5233,10 +5289,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.copy
          */
-        public function copy(array $parameters = [])
-        {
-            //
-        }
+         public function copy(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates an empty photo album.
@@ -5253,10 +5309,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.createAlbum
          */
-        public function createAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function createAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a new comment on the photo.
@@ -5275,10 +5331,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a photo.
@@ -5290,10 +5346,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a photo album belonging to the current user.
@@ -5305,10 +5361,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.deleteAlbum
          */
-        public function deleteAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a comment on the photo.
@@ -5320,10 +5376,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the caption of a photo.
@@ -5341,10 +5397,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits information about a photo album.
@@ -5362,10 +5418,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.editAlbum
          */
-        public function editAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function editAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a comment on a photo.
@@ -5379,10 +5435,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of a user's or community's photos.
@@ -5402,10 +5458,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of a user's or community's photo albums.
@@ -5422,10 +5478,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getAlbums
          */
-        public function getAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the number of photo albums belonging to a user or community.
@@ -5437,10 +5493,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getAlbumsCount
          */
-        public function getAlbumsCount(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbumsCount(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of photos belonging to a user or community, in reverse chronological order.
@@ -5458,10 +5514,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getAll
          */
-        public function getAll(array $parameters = [])
-        {
-            //
-        }
+         public function getAll(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a specific photo album or all albums of the user sorted in reverse chronological order.
@@ -5476,10 +5532,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getAllComments
          */
-        public function getAllComments(array $parameters = [])
-        {
-            //
-        }
+         public function getAllComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about photos by their IDs.
@@ -5492,10 +5548,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns an upload link for chat cover pictures.
@@ -5509,10 +5565,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getChatUploadServer
          */
-        public function getChatUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getChatUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a photo.
@@ -5532,10 +5588,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for market album photo upload.
@@ -5546,10 +5602,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getMarketAlbumUploadServer
          */
-        public function getMarketAlbumUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getMarketAlbumUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for market photo upload.
@@ -5564,10 +5620,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getMarketUploadServer
          */
-        public function getMarketUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getMarketUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for photo upload in a private message for a user.
@@ -5578,10 +5634,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getMessagesUploadServer
          */
-        public function getMessagesUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getMessagesUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of photos with tags that have not been viewed.
@@ -5593,10 +5649,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getNewTags
          */
-        public function getNewTags(array $parameters = [])
-        {
-            //
-        }
+         public function getNewTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for owner cover upload.
@@ -5611,10 +5667,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getOwnerCoverPhotoUploadServer
          */
-        public function getOwnerCoverPhotoUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getOwnerCoverPhotoUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns an upload server address for a profile or community photo.
@@ -5625,10 +5681,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getOwnerPhotoUploadServer
          */
-        public function getOwnerPhotoUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getOwnerPhotoUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of tags on a photo.
@@ -5641,10 +5697,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getTags
          */
-        public function getTags(array $parameters = [])
-        {
-            //
-        }
+         public function getTags(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for photo upload.
@@ -5656,10 +5712,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getUploadServer
          */
-        public function getUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of photos in which a user is tagged.
@@ -5674,10 +5730,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getUserPhotos
          */
-        public function getUserPhotos(array $parameters = [])
-        {
-            //
-        }
+         public function getUserPhotos(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the server address for photo upload onto a user's wall.
@@ -5688,10 +5744,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.getWallUploadServer
          */
-        public function getWallUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getWallUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Makes a photo into an album cover.
@@ -5704,10 +5760,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.makeCover
          */
-        public function makeCover(array $parameters = [])
-        {
-            //
-        }
+         public function makeCover(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Moves a photo from one album to another.
@@ -5720,10 +5776,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.move
          */
-        public function move(array $parameters = [])
-        {
-            //
-        }
+         public function move(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a tag on the photo.
@@ -5740,10 +5796,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.putTag
          */
-        public function putTag(array $parameters = [])
-        {
-            //
-        }
+         public function putTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Removes a tag from a photo.
@@ -5756,10 +5812,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.removeTag
          */
-        public function removeTag(array $parameters = [])
-        {
-            //
-        }
+         public function removeTag(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reorders the album in the list of user albums.
@@ -5773,10 +5829,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.reorderAlbums
          */
-        public function reorderAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function reorderAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reorders the photo in the list of photos of the user album.
@@ -5790,10 +5846,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.reorderPhotos
          */
-        public function reorderPhotos(array $parameters = [])
-        {
-            //
-        }
+         public function reorderPhotos(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a photo.
@@ -5806,10 +5862,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.report
          */
-        public function report(array $parameters = [])
-        {
-            //
-        }
+         public function report(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a comment on a photo.
@@ -5822,10 +5878,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.reportComment
          */
-        public function reportComment(array $parameters = [])
-        {
-            //
-        }
+         public function reportComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a deleted photo.
@@ -5837,10 +5893,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a deleted comment on a photo.
@@ -5852,10 +5908,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves photos after successful uploading.
@@ -5873,10 +5929,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.save
          */
-        public function save(array $parameters = [])
-        {
-            //
-        }
+         public function save(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves market album photos after successful uploading.
@@ -5890,10 +5946,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveMarketAlbumPhoto
          */
-        public function saveMarketAlbumPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveMarketAlbumPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves market photos after successful uploading.
@@ -5909,10 +5965,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveMarketPhoto
          */
-        public function saveMarketPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveMarketPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves a photo after being successfully uploaded. URL obtained with [vk.com/dev/photos.getMessagesUploadServer|photos.getMessagesUploadServer] method.
@@ -5925,10 +5981,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveMessagesPhoto
          */
-        public function saveMessagesPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveMessagesPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves cover photo after successful uploading.
@@ -5940,10 +5996,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveOwnerCoverPhoto
          */
-        public function saveOwnerCoverPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveOwnerCoverPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves a profile or community photo. Upload URL can be got with the [vk.com/dev/photos.getOwnerPhotoUploadServer|photos.getOwnerPhotoUploadServer] method.
@@ -5956,10 +6012,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveOwnerPhoto
          */
-        public function saveOwnerPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveOwnerPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves a photo to a user's or community's wall after being uploaded.
@@ -5977,10 +6033,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.saveWallPhoto
          */
-        public function saveWallPhoto(array $parameters = [])
-        {
-            //
-        }
+         public function saveWallPhoto(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of photos.
@@ -5999,10 +6055,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/photos.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Polls
@@ -6019,10 +6076,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.addVote
          */
-        public function addVote(array $parameters = [])
-        {
-            //
-        }
+         public function addVote(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates polls that can be attached to the users' or communities' posts.
@@ -6040,10 +6097,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.create
          */
-        public function create(array $parameters = [])
-        {
-            //
-        }
+         public function create(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes the current user's vote from the selected answer in the poll.
@@ -6057,10 +6114,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.deleteVote
          */
-        public function deleteVote(array $parameters = [])
-        {
-            //
-        }
+         public function deleteVote(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits created polls
@@ -6079,10 +6136,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns detailed information about a poll by its ID.
@@ -6099,10 +6156,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of users who selected specific answers in the poll.
@@ -6121,10 +6178,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/polls.getVoters
          */
-        public function getVoters(array $parameters = [])
-        {
-            //
-        }
+         public function getVoters(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class PrettyCards
@@ -6142,10 +6200,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/prettyCards.create
          */
-        public function create(array $parameters = [])
-        {
-            //
-        }
+         public function create(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -6155,10 +6213,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/prettyCards.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -6174,10 +6232,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/prettyCards.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -6188,10 +6246,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/prettyCards.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -6201,20 +6259,21 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/prettyCards.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @return string
          *
          * @see https://vk.com/dev/prettyCards.getUploadURL
          */
-        public function getUploadURL(array $parameters = [])
-        {
-            //
-        }
+         public function getUploadURL(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Search
@@ -6233,10 +6292,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/search.getHints
          */
-        public function getHints(array $parameters = [])
-        {
-            //
-        }
+         public function getHints(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Secure
@@ -6252,10 +6312,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.addAppEvent
          */
-        public function addAppEvent(array $parameters = [])
-        {
-            //
-        }
+         public function addAppEvent(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Checks the user authentication in 'IFrame' and 'Flash' apps using the 'access_token' parameter.
@@ -6267,10 +6327,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.checkToken
          */
-        public function checkToken(array $parameters = [])
-        {
-            //
-        }
+         public function checkToken(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns payment balance of the application in hundredth of a vote.
@@ -6279,10 +6339,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.getAppBalance
          */
-        public function getAppBalance(array $parameters = [])
-        {
-            //
-        }
+         public function getAppBalance(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Shows a list of SMS notifications sent by the application using [vk.com/dev/secure.sendSMSNotification|secure.sendSMSNotification] method.
@@ -6296,10 +6356,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.getSMSHistory
          */
-        public function getSMSHistory(array $parameters = [])
-        {
-            //
-        }
+         public function getSMSHistory(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Shows history of votes transaction between users and the application.
@@ -6315,10 +6375,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.getTransactionsHistory
          */
-        public function getTransactionsHistory(array $parameters = [])
-        {
-            //
-        }
+         public function getTransactionsHistory(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns one of the previously set game levels of one or more users in the application.
@@ -6329,10 +6389,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.getUserLevel
          */
-        public function getUserLevel(array $parameters = [])
-        {
-            //
-        }
+         public function getUserLevel(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Opens the game achievement and gives the user a sticker
@@ -6344,10 +6404,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.giveEventSticker
          */
-        public function giveEventSticker(array $parameters = [])
-        {
-            //
-        }
+         public function giveEventSticker(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends notification to the user.
@@ -6360,10 +6420,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.sendNotification
          */
-        public function sendNotification(array $parameters = [])
-        {
-            //
-        }
+         public function sendNotification(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sends 'SMS' notification to a user's mobile device.
@@ -6375,10 +6435,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.sendSMSNotification
          */
-        public function sendSMSNotification(array $parameters = [])
-        {
-            //
-        }
+         public function sendSMSNotification(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sets a counter which is shown to the user in bold in the left menu.
@@ -6392,10 +6452,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/secure.setCounter
          */
-        public function setCounter(array $parameters = [])
-        {
-            //
-        }
+         public function setCounter(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Stats
@@ -6417,25 +6478,25 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stats.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns stats for a wall post.
          *
          * @param $owner_id string post owner community id. Specify with "-" sign.
-         * @param $post_id integer wall post id. Note that stats are available only for '300' last (newest) posts on a community wall.
+         * @param $post_ids array wall posts id
          *
          * @return array
          *
          * @see https://vk.com/dev/stats.getPostReach
          */
-        public function getPostReach(array $parameters = [])
-        {
-            //
-        }
+         public function getPostReach(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $id string
@@ -6444,10 +6505,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stats.trackVisitor
          */
-        public function trackVisitor(array $parameters = [])
-        {
-            //
-        }
+         public function trackVisitor(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Status
@@ -6462,10 +6524,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/status.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Sets a new status for the current user.
@@ -6477,10 +6539,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/status.set
          */
-        public function set(array $parameters = [])
-        {
-            //
-        }
+         public function set(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Storage
@@ -6491,22 +6554,20 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $key string
          * @param $keys array
          * @param $user_id integer
-         * @param $global boolean
          *
          * @return string
          *
          * @see https://vk.com/dev/storage.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the names of all variables.
          *
          * @param $user_id integer user id, whose variables names are returned if they were requested with a server method.
-         * @param $global boolean
          * @param $offset integer
          * @param $count integer amount of variable names the info needs to be collected from.
          *
@@ -6514,10 +6575,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/storage.getKeys
          */
-        public function getKeys(array $parameters = [])
-        {
-            //
-        }
+         public function getKeys(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Saves a value of variable with the name set by 'key' parameter.
@@ -6525,16 +6586,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $key string
          * @param $value string
          * @param $user_id integer
-         * @param $global boolean
          *
          * @return mixed
          *
          * @see https://vk.com/dev/storage.set
          */
-        public function set(array $parameters = [])
-        {
-            //
-        }
+         public function set(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Stories
@@ -6548,10 +6609,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.banOwner
          */
-        public function banOwner(array $parameters = [])
-        {
-            //
-        }
+         public function banOwner(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to delete story.
@@ -6563,25 +6624,26 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns stories available for current user.
          *
          * @param $owner_id integer Owner ID.
          * @param $extended boolean '1' — to return additional fields for users and communities. Default value is 0.
+         * @param $fields array
          *
          * @return array
          *
          * @see https://vk.com/dev/stories.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns list of sources hidden from current user's feed.
@@ -6593,10 +6655,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.getBanned
          */
-        public function getBanned(array $parameters = [])
-        {
-            //
-        }
+         public function getBanned(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns story by its ID.
@@ -6609,10 +6671,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns URL for uploading a story with photo.
@@ -6623,15 +6685,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $link_text string Link text (for community's stories only).
          * @param $link_url string Link URL. Internal links on https://vk.com only.
          * @param $group_id integer ID of the community to upload the story (should be verified or with the "fire" icon).
+         * @param $clickable_stickers string
          *
          * @return array
          *
          * @see https://vk.com/dev/stories.getPhotoUploadServer
          */
-        public function getPhotoUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getPhotoUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns replies to the story.
@@ -6642,29 +6705,29 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $extended boolean '1' — to return additional fields for users and communities. Default value is 0.
          * @param $fields array Additional fields to return
          *
-         * @return array
+         * @return mixed
          *
          * @see https://vk.com/dev/stories.getReplies
          */
-        public function getReplies(array $parameters = [])
-        {
-            //
-        }
+         public function getReplies(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns stories available for current user.
          *
-         * @param $owner_id integer Story owner ID.
+         * @param $owner_id integer Story owner ID. 
          * @param $story_id integer Story ID.
          *
          * @return int
          *
          * @see https://vk.com/dev/stories.getStats
          */
-        public function getStats(array $parameters = [])
-        {
-            //
-        }
+         public function getStats(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to receive URL for uploading story with video.
@@ -6675,15 +6738,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $link_text string Link text (for community's stories only).
          * @param $link_url string Link URL. Internal links on https://vk.com only.
          * @param $group_id integer ID of the community to upload the story (should be verified or with the "fire" icon).
+         * @param $clickable_stickers string
          *
          * @return array
          *
          * @see https://vk.com/dev/stories.getVideoUploadServer
          */
-        public function getVideoUploadServer(array $parameters = [])
-        {
-            //
-        }
+         public function getVideoUploadServer(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of story viewers.
@@ -6694,14 +6758,14 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $offset integer Offset needed to return a specific subset of results.
          * @param $extended boolean '1' — to return detailed information about photos
          *
-         * @return array
+         * @return mixed
          *
          * @see https://vk.com/dev/stories.getViewers
          */
-        public function getViewers(array $parameters = [])
-        {
-            //
-        }
+         public function getViewers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Hides all replies in the last 24 hours from the user to current user's stories.
@@ -6713,10 +6777,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.hideAllReplies
          */
-        public function hideAllReplies(array $parameters = [])
-        {
-            //
-        }
+         public function hideAllReplies(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Hides the reply to the current user's story.
@@ -6728,10 +6792,30 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.hideReply
          */
-        public function hideReply(array $parameters = [])
-        {
-            //
-        }
+         public function hideReply(array $parameters = [])
+         {
+             //
+         }
+
+        /**
+         * @param $q string
+         * @param $place_id integer
+         * @param $latitude number
+         * @param $longitude number
+         * @param $radius integer
+         * @param $mentioned_id integer
+         * @param $count integer
+         * @param $extended boolean
+         * @param $fields array
+         *
+         * @return mixed
+         *
+         * @see https://vk.com/dev/stories.search
+         */
+         public function search(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to show stories from hidden sources in current user's feed.
@@ -6742,10 +6826,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/stories.unbanOwner
          */
-        public function unbanOwner(array $parameters = [])
-        {
-            //
-        }
+         public function unbanOwner(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Streaming
@@ -6757,10 +6842,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/streaming.getServerUrl
          */
-        public function getServerUrl(array $parameters = [])
-        {
-            //
-        }
+         public function getServerUrl(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $monthly_tier string
@@ -6769,10 +6854,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/streaming.setSettings
          */
-        public function setSettings(array $parameters = [])
-        {
-            //
-        }
+         public function setSettings(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Users
@@ -6781,17 +6867,17 @@ namespace MaxGoody\Hydrogen\Groups {
          * Returns detailed information on users.
          *
          * @param $user_ids array User IDs or screen names ('screen_name'). By default, current user ID.
-         * @param $fields array Profile fields to return. Sample values: 'nickname', 'screen_name', 'sex', 'bdate' (birthdate), 'city', 'country', 'timezone', 'photo', 'photo_medium', 'photo_big', 'has_mobile', 'contacts', 'education', 'online', 'counters', 'relation', 'last_seen', 'activity', 'can_write_private_message', 'can_see_all_posts', 'can_post', 'universities',
+         * @param $fields array Profile fields to return. Sample values: 'nickname', 'screen_name', 'sex', 'bdate' (birthdate), 'city', 'country', 'timezone', 'photo', 'photo_medium', 'photo_big', 'has_mobile', 'contacts', 'education', 'online', 'counters', 'relation', 'last_seen', 'activity', 'can_write_private_message', 'can_see_all_posts', 'can_post', 'universities', 'can_invite_to_chats'
          * @param $name_case string Case for declension of user name and surname: 'nom' — nominative (default), 'gen' — genitive , 'dat' — dative, 'acc' — accusative , 'ins' — instrumental , 'abl' — prepositional
          *
          * @return array
          *
          * @see https://vk.com/dev/users.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of followers of the user in question, sorted by date added, most recent first.
@@ -6806,10 +6892,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/users.getFollowers
          */
-        public function getFollowers(array $parameters = [])
-        {
-            //
-        }
+         public function getFollowers(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of IDs of users and communities followed by the user.
@@ -6824,24 +6910,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/users.getSubscriptions
          */
-        public function getSubscriptions(array $parameters = [])
-        {
-            //
-        }
-
-        /**
-         * Returns information whether a user installed the application.
-         *
-         * @param $user_id integer
-         *
-         * @return int
-         *
-         * @see https://vk.com/dev/users.isAppUser
-         */
-        public function isAppUser(array $parameters = [])
-        {
-            //
-        }
+         public function getSubscriptions(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complain about) a user.
@@ -6854,10 +6926,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/users.report
          */
-        public function report(array $parameters = [])
-        {
-            //
-        }
+         public function report(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of users matching the search criteria.
@@ -6890,7 +6962,6 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $school integer ID of the school.
          * @param $school_year integer School graduation year.
          * @param $religion string Users' religious affiliation.
-         * @param $interests string Users' interests.
          * @param $company string Name of the company where users work.
          * @param $position string Job position.
          * @param $group_id integer ID of a community to search in communities.
@@ -6900,10 +6971,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/users.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Utils
@@ -6917,10 +6989,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.checkLink
          */
-        public function checkLink(array $parameters = [])
-        {
-            //
-        }
+         public function checkLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes shortened link from user's list.
@@ -6931,10 +7003,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.deleteFromLastShortened
          */
-        public function deleteFromLastShortened(array $parameters = [])
-        {
-            //
-        }
+         public function deleteFromLastShortened(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of user's shortened links.
@@ -6946,10 +7018,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.getLastShortenedLinks
          */
-        public function getLastShortenedLinks(array $parameters = [])
-        {
-            //
-        }
+         public function getLastShortenedLinks(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns stats data for shortened link.
@@ -6965,10 +7037,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.getLinkStats
          */
-        public function getLinkStats(array $parameters = [])
-        {
-            //
-        }
+         public function getLinkStats(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns the current time of the VK server.
@@ -6977,10 +7049,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.getServerTime
          */
-        public function getServerTime(array $parameters = [])
-        {
-            //
-        }
+         public function getServerTime(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to receive a link shortened via vk.cc.
@@ -6992,10 +7064,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.getShortLink
          */
-        public function getShortLink(array $parameters = [])
-        {
-            //
-        }
+         public function getShortLink(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Detects a type of object (e.g., user, community, application) and its ID by screen name.
@@ -7006,10 +7078,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/utils.resolveScreenName
          */
-        public function resolveScreenName(array $parameters = [])
-        {
-            //
-        }
+         public function resolveScreenName(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Video
@@ -7025,10 +7098,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.add
          */
-        public function add(array $parameters = [])
-        {
-            //
-        }
+         public function add(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Creates an empty album for videos.
@@ -7041,10 +7114,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.addAlbum
          */
-        public function addAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function addAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $target_id integer
@@ -7057,10 +7130,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.addToAlbum
          */
-        public function addToAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function addToAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a new comment on a video.
@@ -7078,10 +7151,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a video from a user or community page.
@@ -7094,10 +7167,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a video album.
@@ -7109,10 +7182,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.deleteAlbum
          */
-        public function deleteAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function deleteAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a comment on a video.
@@ -7124,10 +7197,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits information about a video on a user or community page.
@@ -7145,10 +7218,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the title of a video album.
@@ -7162,10 +7235,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.editAlbum
          */
-        public function editAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function editAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits the text of a comment on a video.
@@ -7179,10 +7252,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns detailed information about videos.
@@ -7198,10 +7271,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns video album info
@@ -7213,10 +7286,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.getAlbumById
          */
-        public function getAlbumById(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbumById(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of video albums owned by a user or community.
@@ -7231,10 +7304,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.getAlbums
          */
-        public function getAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $target_id integer
@@ -7246,10 +7319,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.getAlbumsByVideo
          */
-        public function getAlbumsByVideo(array $parameters = [])
-        {
-            //
-        }
+         public function getAlbumsByVideo(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a video.
@@ -7268,10 +7341,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $target_id integer
@@ -7284,10 +7357,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.removeFromAlbum
          */
-        public function removeFromAlbum(array $parameters = [])
-        {
-            //
-        }
+         public function removeFromAlbum(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reorders the album in the list of user video albums.
@@ -7301,10 +7374,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.reorderAlbums
          */
-        public function reorderAlbums(array $parameters = [])
-        {
-            //
-        }
+         public function reorderAlbums(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reorders the video in the video album.
@@ -7322,10 +7395,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.reorderVideos
          */
-        public function reorderVideos(array $parameters = [])
-        {
-            //
-        }
+         public function reorderVideos(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a video.
@@ -7340,10 +7413,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.report
          */
-        public function report(array $parameters = [])
-        {
-            //
-        }
+         public function report(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a comment on a video.
@@ -7356,10 +7429,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.reportComment
          */
-        public function reportComment(array $parameters = [])
-        {
-            //
-        }
+         public function reportComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a previously deleted video.
@@ -7371,10 +7444,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a previously deleted comment on a video.
@@ -7386,10 +7459,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a server address (required for upload) and video data.
@@ -7411,10 +7484,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.save
          */
-        public function save(array $parameters = [])
-        {
-            //
-        }
+         public function save(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of videos under the set search criterion.
@@ -7435,10 +7508,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/video.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Wall
@@ -7451,10 +7525,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.closeComments
          */
-        public function closeComments(array $parameters = [])
-        {
-            //
-        }
+         public function closeComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a comment to a post on a user wall or community wall.
@@ -7472,10 +7546,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.createComment
          */
-        public function createComment(array $parameters = [])
-        {
-            //
-        }
+         public function createComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a post from a user wall or community wall.
@@ -7487,10 +7561,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.delete
          */
-        public function delete(array $parameters = [])
-        {
-            //
-        }
+         public function delete(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Deletes a comment on a post on a user wall or community wall.
@@ -7502,10 +7576,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.deleteComment
          */
-        public function deleteComment(array $parameters = [])
-        {
-            //
-        }
+         public function deleteComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a post on a user wall or community wall.
@@ -7526,15 +7600,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $poster_bkg_id integer
          * @param $poster_bkg_owner_id integer
          * @param $poster_bkg_access_hash string
+         * @param $copyright string
          *
          * @return array
          *
          * @see https://vk.com/dev/wall.edit
          */
-        public function edit(array $parameters = [])
-        {
-            //
-        }
+         public function edit(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to edit hidden post.
@@ -7556,10 +7631,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.editAdsStealth
          */
-        public function editAdsStealth(array $parameters = [])
-        {
-            //
-        }
+         public function editAdsStealth(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Edits a comment on a user wall or community wall.
@@ -7573,10 +7648,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.editComment
          */
-        public function editComment(array $parameters = [])
-        {
-            //
-        }
+         public function editComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of posts on a user wall or community wall.
@@ -7593,10 +7668,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.get
          */
-        public function get(array $parameters = [])
-        {
-            //
-        }
+         public function get(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of posts from user or community walls by their IDs.
@@ -7610,10 +7685,27 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.getById
          */
-        public function getById(array $parameters = [])
-        {
-            //
-        }
+         public function getById(array $parameters = [])
+         {
+             //
+         }
+
+        /**
+         * Returns a comment on a post on a user wall or community wall.
+         *
+         * @param $owner_id integer User ID or community ID. Use a negative value to designate a community ID.
+         * @param $comment_id integer Comment ID.
+         * @param $extended boolean
+         * @param $fields array
+         *
+         * @return array
+         *
+         * @see https://vk.com/dev/wall.getComment
+         */
+         public function getComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns a list of comments on a post on a user wall or community wall.
@@ -7635,10 +7727,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Returns information about reposts of a post on user wall or community wall.
@@ -7652,10 +7744,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.getReposts
          */
-        public function getReposts(array $parameters = [])
-        {
-            //
-        }
+         public function getReposts(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * @param $owner_id integer
@@ -7665,10 +7757,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.openComments
          */
-        public function openComments(array $parameters = [])
-        {
-            //
-        }
+         public function openComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Pins the post on wall.
@@ -7680,10 +7772,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.pin
          */
-        public function pin(array $parameters = [])
-        {
-            //
-        }
+         public function pin(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Adds a new post on a user wall or community wall. Can also be used to publish suggested or scheduled posts.
@@ -7704,15 +7796,16 @@ namespace MaxGoody\Hydrogen\Groups {
          * @param $mark_as_ads boolean
          * @param $close_comments boolean
          * @param $mute_notifications boolean
+         * @param $copyright string
          *
          * @return array
          *
          * @see https://vk.com/dev/wall.post
          */
-        public function post(array $parameters = [])
-        {
-            //
-        }
+         public function post(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to create hidden post which will not be shown on the community's wall and can be used for creating an ad with type "Community post".
@@ -7734,10 +7827,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.postAdsStealth
          */
-        public function postAdsStealth(array $parameters = [])
-        {
-            //
-        }
+         public function postAdsStealth(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a comment on a post on a user wall or community wall.
@@ -7750,10 +7843,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.reportComment
          */
-        public function reportComment(array $parameters = [])
-        {
-            //
-        }
+         public function reportComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reports (submits a complaint about) a post on a user wall or community wall.
@@ -7766,10 +7859,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.reportPost
          */
-        public function reportPost(array $parameters = [])
-        {
-            //
-        }
+         public function reportPost(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Reposts (copies) an object to a user wall or community wall.
@@ -7784,10 +7877,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.repost
          */
-        public function repost(array $parameters = [])
-        {
-            //
-        }
+         public function repost(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a post deleted from a user wall or community wall.
@@ -7799,10 +7892,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.restore
          */
-        public function restore(array $parameters = [])
-        {
-            //
-        }
+         public function restore(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Restores a comment deleted from a user wall or community wall.
@@ -7814,10 +7907,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.restoreComment
          */
-        public function restoreComment(array $parameters = [])
-        {
-            //
-        }
+         public function restoreComment(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Allows to search posts on user or community walls.
@@ -7835,10 +7928,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.search
          */
-        public function search(array $parameters = [])
-        {
-            //
-        }
+         public function search(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Unpins the post on wall.
@@ -7850,10 +7943,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/wall.unpin
          */
-        public function unpin(array $parameters = [])
-        {
-            //
-        }
+         public function unpin(array $parameters = [])
+         {
+             //
+         }
+
     }
 
     class Widgets
@@ -7873,10 +7967,10 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/widgets.getComments
          */
-        public function getComments(array $parameters = [])
-        {
-            //
-        }
+         public function getComments(array $parameters = [])
+         {
+             //
+         }
 
         /**
          * Gets a list of application/site pages where the [vk.com/dev/Comments|Comments widget] or [vk.com/dev/Like|Like widget] is installed.
@@ -7891,9 +7985,11 @@ namespace MaxGoody\Hydrogen\Groups {
          *
          * @see https://vk.com/dev/widgets.getPages
          */
-        public function getPages(array $parameters = [])
-        {
-            //
-        }
+         public function getPages(array $parameters = [])
+         {
+             //
+         }
+
     }
+
 }
